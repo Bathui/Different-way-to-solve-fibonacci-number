@@ -120,16 +120,9 @@ $$
 1. If we want to use the formula in step 7, we should know the magnitude of c, we could get the answer during the process when we get the eigenvectors. It should be $1/(λ_1-λ_2)$
 2.   This is the last step. Plug what we got to the formula:
 $$u_k=\frac{(λ_1)^nx_1-(λ_2)^nx_2}{λ_1-λ_2}$$
+    
     - We only have to plug the exact number of two λ's and x's to the formula.
 ## Program part
 1. I used recursion and tail recursion to write the program of getting n-th term of fibonacci number, which is in recursion.c and tailRecursion.c.
 
 2. The method of using eigenvalues is in the file eigenvalues.c. It seems a little confusing, but it is just a process of pluging exact number. The central idea is involved in the derivation part in last section.  
-
-$$A = \begin{bmatrix}
-  1       & x^1_0   & x^2_0   & \cdots  & x^{degree}_0  \\
-  1       & x^1_1   & x^2_1   & \cdots  & x^{degree}_1  \\
-  \vdots  & \vdots  & \vdots  & \ddots  & \vdots \\
-  1       & x^1_n   & x^2_n   & \cdots  & x^{degree}_n  \\
-\end{bmatrix}
-$$
