@@ -87,16 +87,14 @@ XΛ^nc = \begin{bmatrix}
   &  & (λ_n)^n
   \\
 \end{bmatrix}
+\begin{bmatrix}
+  c_1\\
+  \vdots\\
+  c_n
+  \\
+\end{bmatrix}
 $$
 
-$$
-XΛ^nc = \left[\begin{array}{cc} \ \ \\x_1\ ... \ x_n\\\ 
-\end{array}\right]\left[\begin{array}{cc} 
-(λ_1)^n\\.\\\space\space\space\space\space\ .\\\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space.\\\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space (λ_n)^n
-\end{array}\right]\left[\begin{array}{cc} 
-c_1\\ .\\ \space.\ \\ .\\ c_n
-\end{array}\right]
-$$
   - Then, if $k = n$ we could wirte them as 
   $$u_k = c_1(λ_1)^kx_1 + c_2(λ_2)^kx_2$$
     - we only need to write two terms because there are only two eigenvalues for matrix A.
