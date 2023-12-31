@@ -125,4 +125,4 @@ $$u_k=\frac{(λ_1)^nx_1-(λ_2)^nx_2}{λ_1-λ_2}$$
 ## Program part
 1. I used recursion and tail recursion to write the program of getting n-th term of fibonacci number, which is in recursion.c and tailRecursion.c.
 
-2. The method of using eigenvalues is in the file eigenvalues.c. It seems a little confusing, but it is just a process of pluging exact number. The central idea is involved in the derivation part in last section.  
+2. The method of using eigenvalues is in the file eigenvalues.c. It seems a little confusing for some parts, but it is just a process of pluging exact numbers. The central idea is involved in the derivation part in last section.  
