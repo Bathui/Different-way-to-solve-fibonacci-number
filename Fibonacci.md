@@ -23,8 +23,7 @@
 $AX = XΛ$
 #### Central idea
 1. I decided to put two fibonacci numbers (we note as $F_k$ and $F_{k+1}$) involved in the calculation into a matrix. It is like the following:
-$$
-u_k=\begin{pmatrix}
+$$u_k=\begin{pmatrix}
   F_{k+1} \\
   F_{k+2}\\
 \end{pmatrix}
