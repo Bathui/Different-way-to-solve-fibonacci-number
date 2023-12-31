@@ -31,6 +31,7 @@ $$u_k = \begin{pmatrix}
 $$
 1. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
 The matrix $A$ does this job.
+
 $$A=\left[\begin{matrix}1&1\\1&0\end{matrix}\right]$$
 1. We can know that
 $$
