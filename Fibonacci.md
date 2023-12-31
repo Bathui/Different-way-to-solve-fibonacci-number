@@ -81,6 +81,11 @@ XΛ^nc = \begin{bmatrix}
   x_1 &\cdots &x_n\\
   \\
 \end{bmatrix}
+\begin{bmatrix}
+  \\
+  x_1 &\cdots &x_n\\
+  \\
+\end{bmatrix}
 $$
 
 $$
