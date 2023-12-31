@@ -67,7 +67,7 @@ $$
 
 $$A^nu_0 = XΛ^nX^{-1}u_0$$
 
-1. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
+7. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
 
 $$
 A^nu_0 = XΛ^nc
@@ -100,7 +100,7 @@ $$
   $$u_k = c_1(λ_1)^kx_1 + c_2(λ_2)^kx_2$$
 
     - we only need to write two terms because there are only two eigenvalues for matrix A.
-1. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
+8. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
 $$λ_1 ≈ 1.618$$
 $$λ_2 ≈ -0.618$$
 
@@ -110,13 +110,6 @@ x_1 = \begin{bmatrix}
   1   \\
 \end{bmatrix}
 $$
-$$
-x_1 = \left[\begin{array}{cc}
-λ_1 \\
-1
-\end{array}\right]
-$$
-
 $$
 x_2 = \left[\begin{array}{cc}
 λ_2 \\
