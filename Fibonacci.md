@@ -26,12 +26,7 @@ $AX = XΛ$
 $$u_k=\left[\begin{array}{cc}F_{k+1}\\F_k\end{array}\right]$$
 2. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
 The matrix $A$ does this job.
-$$
-A = \left[\begin{array}{cc} 
-1\ \ 1\\
-1\ \ 0
-\end{array}\right]
-$$
+$$A = \left[\begin{array}{cc} 1\ \ 1\\1\ \ 0\end{array}\right]$$
 3. We can know that
 $$
 u_{k+1} = Au_k  
