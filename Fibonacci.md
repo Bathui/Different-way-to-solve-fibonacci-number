@@ -103,6 +103,7 @@ $$
 1. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
 $$λ_1 ≈ 1.618$$
 $$λ_2 ≈ -0.618$$
+
 $$
 x_1 = \begin{bmatrix}
   λ_1 \\
