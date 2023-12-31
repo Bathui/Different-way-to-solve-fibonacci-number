@@ -106,3 +106,8 @@ $$
 1. I used recursion and tail recursion to write the program of getting n-th term of fibonacci number, which is in recursion.c and tailRecursion.c.
 
 2. The method of using eigenvalues is in the file eigenvalues.c. It seems a little confusing, but it is just a process of pluging exact number. The central idea is involved in the derivation part in last section.  
+$ \begin{bmatrix}
+a_1 & a_2 & a_3 \\
+b_1 & b_2 & b_3 \\
+c_1 & c_2 & c_3 
+\end{bmatrix}  $
