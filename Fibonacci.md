@@ -82,8 +82,9 @@ XΛ^nc = \begin{bmatrix}
   \\
 \end{bmatrix}
 \begin{bmatrix}
-  \\
-  x_1 &\cdots &x_n\\
+  (λ_1)^n \\
+  &\ddots \\
+  &  & (λ_n)^n
   \\
 \end{bmatrix}
 $$
