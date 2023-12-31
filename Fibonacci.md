@@ -24,7 +24,7 @@ $AX = XΛ$
 #### Central idea
 1. I decided to put two fibonacci numbers (we note as $F_k$ and $F_{k+1}$) involved in the calculation into a matrix. It is like the following:
 
-$$A = \begin{bmatrix}
+$$u_k = \begin{bmatrix}
   1 & 1 \\
   1 & 0 \\
 \end{bmatrix}
