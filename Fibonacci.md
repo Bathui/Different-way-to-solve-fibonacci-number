@@ -68,10 +68,20 @@ $$
 $$A^nu_0 = XΛ^nX^{-1}u_0$$
 
 1. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
+
 $$
 A^nu_0 = XΛ^nc
 $$
+
   - If we expand the formula, it should be like this
+
+$$
+XΛ^nc = \begin{bmatrix}
+  \\x_1 &\cdots &x_n\\
+  \\
+\end{bmatrix}
+$$
+
 $$
 XΛ^nc = \left[\begin{array}{cc} \ \ \\x_1\ ... \ x_n\\\ 
 \end{array}\right]\left[\begin{array}{cc} 
