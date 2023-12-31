@@ -1,12 +1,21 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <math.h>
+/**
+ * This function creates a matrix that represents the corresponding eigenvalues
+ * @eigen_value: the eigenvalues of the fibonacci matrix
+ * @return: return the corresponding eigenvector
+*/
 double* create_eigenvector(double eigen_value){
 	double* x = (double *)malloc(2 * sizeof(int));
 	x[0] = eigen_value;
 	x[1] = 1;
 	return x;
 }
+/**
+ * The function creates a matrix that could store the fibonacci number. That is, fibonacci matrix
+ * @return: return the fibonacci matrix
+*/
 double* create_fibo_matrix(){
 	double* fibo = (double *)malloc(2 * sizeof(int));
 	return fibo;

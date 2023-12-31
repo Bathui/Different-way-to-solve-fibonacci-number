@@ -1,4 +1,9 @@
 # include <stdio.h>
+/**
+ * The function returns the n-th term of fibonacci numbers the user wants
+ * @n: n-th term
+ * @return: the n-th term fibonacci number
+*/
 int fibo (int n) {
 	int num;
 	if (n == 0) {
