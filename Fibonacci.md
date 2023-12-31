@@ -26,7 +26,8 @@ $AX = XΛ$
 $$u_k=\left[\begin{array}{cc}F_{k+1}\\F_k\end{array}\right]$$
 2. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
 The matrix $A$ does this job.
-$A = \left[\begin{array}{cc} 1\ \ 1\\1\ \ 0\end{array}\right]$
+$$A = \left[\begin{array}{cc} 
+1\ \ 1\\1\ \ 0\end{array}\right]$$
 3. We can know that
 $$
 u_{k+1} = Au_k  
@@ -58,12 +59,8 @@ $$
   $$u_k = c_1(λ_1)^kx_1 + c_2(λ_2)^kx_2$$
     - we only need to write two terms because there are only two eigenvalues for matrix A.
 8. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
-$$
-λ_1 ≈ 1.618
-$$
-$$
-λ_2 ≈ -0.618 
-$$
+$$λ_1 ≈ 1.618$$
+$$λ_2 ≈ -0.618$$
 $$
 x_1 = \left[\begin{array}{cc}
 λ_1 \\
@@ -78,11 +75,7 @@ x_2 = \left[\begin{array}{cc}
 $$
 9. If we want to use the formula in step 7, we should know the magnitude of c, we could get the answer during the process when we get the eigenvectors. It should be $1/(λ_1-λ_2)$
 10. This is the last step. Plug what we got to the formula:
-$$
-u_k
-=
-\frac{(λ_1)^nx_1-(λ_2)^nx_2}{λ_1-λ_2}
-$$
+$$u_k=\frac{(λ_1)^nx_1-(λ_2)^nx_2}{λ_1-λ_2}$$
     - We only have to plug the exact number of two λ's and x's to the formula.
 ## Program part
 1. I used recursion and tail recursion to write the program of getting n-th term of fibonacci number, which is in recursion.c and tailRecursion.c.
