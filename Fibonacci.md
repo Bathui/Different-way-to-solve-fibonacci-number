@@ -38,10 +38,13 @@ $$A = \begin{bmatrix}
   1 & 0 \\
 \end{bmatrix}
 $$
+
 3. We can know that
+
 $$
 u_{k+1} = Au_k  
-$$    
+$$
+    
 4. So, it is easy to know that if $u_0 = \begin{bmatrix}
   1 \\
   0 \\
