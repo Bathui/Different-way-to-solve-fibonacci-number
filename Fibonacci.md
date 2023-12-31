@@ -77,7 +77,8 @@ $$
 
 $$
 XΛ^nc = \begin{bmatrix}
-  \\x_1 &\cdots &x_n\\
+  \\
+  x_1 &\cdots &x_n\\
   \\
 \end{bmatrix}
 $$
