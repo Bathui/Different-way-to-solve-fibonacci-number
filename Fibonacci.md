@@ -23,25 +23,30 @@
 $AX = XΛ$
 #### Central idea
 1. I decided to put two fibonacci numbers (we note as $F_k$ and $F_{k+1}$) involved in the calculation into a matrix. It is like the following:
-$$u_k=\left[\begin{array}{cc}F_{k+1}\\F_k\end{array}\right]$$
-2. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
+$$
+u_k=\begin{pmatrix}
+   F_{k+1} \\
+   F_{k+2}\\
+\end{pmatrix}
+$$
+1. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
 The matrix $A$ does this job.
 $$A=\left[\begin{matrix}1&1\\1&0\end{matrix}\right]$$
-3. We can know that
+1. We can know that
 $$
 u_{k+1} = Au_k  
 $$    
-4. So, it is easy to know that if $u_0 = \left[\begin{array}{cc} 
+1. So, it is easy to know that if $u_0 = \left[\begin{array}{cc} 
 1\\
 0\end{array}\right]$, 
 $$u_n = A^nu_0$$ 
-5. Right now, we have to look back a little bit. We said we want to connect fibonacci number with eigenvalues. There is an essential decomposition. We want to make $A$ be decomposed to $XΛX^{-1}$. Here is the formula:
+1. Right now, we have to look back a little bit. We said we want to connect fibonacci number with eigenvalues. There is an essential decomposition. We want to make $A$ be decomposed to $XΛX^{-1}$. Here is the formula:
 $$
 A = XΛX^{-1}
 $$
-6. So, we could easily get
+1. So, we could easily get
 $$A^nu_0 = XΛ^nX^{-1}u_0$$
-7. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
+1. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
 $$
 A^nu_0 = XΛ^nc
 $$
@@ -57,7 +62,7 @@ $$
   - Then, if $k = n$ we could wirte them as 
   $$u_k = c_1(λ_1)^kx_1 + c_2(λ_2)^kx_2$$
     - we only need to write two terms because there are only two eigenvalues for matrix A.
-8. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
+1. By using the way we learned in linear algebra, get eigenvectors and eigenvalues of the matrix $A$ are not difficult. 
 $$λ_1 ≈ 1.618$$
 $$λ_2 ≈ -0.618$$
 $$
@@ -72,8 +77,8 @@ x_2 = \left[\begin{array}{cc}
 1
 \end{array}\right]
 $$
-9. If we want to use the formula in step 7, we should know the magnitude of c, we could get the answer during the process when we get the eigenvectors. It should be $1/(λ_1-λ_2)$
-10. This is the last step. Plug what we got to the formula:
+1. If we want to use the formula in step 7, we should know the magnitude of c, we could get the answer during the process when we get the eigenvectors. It should be $1/(λ_1-λ_2)$
+2.  This is the last step. Plug what we got to the formula:
 $$u_k=\frac{(λ_1)^nx_1-(λ_2)^nx_2}{λ_1-λ_2}$$
     - We only have to plug the exact number of two λ's and x's to the formula.
 ## Program part
