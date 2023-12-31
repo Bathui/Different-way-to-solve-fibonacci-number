@@ -110,6 +110,7 @@ x_1 = \begin{bmatrix}
   1   \\
 \end{bmatrix}
 $$
+
 $$
 x_2 = \left[\begin{array}{cc}
 λ_2 \\
