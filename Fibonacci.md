@@ -25,8 +25,8 @@ $AX = XΛ$
 1. I decided to put two fibonacci numbers (we note as $F_k$ and $F_{k+1}$) involved in the calculation into a matrix. It is like the following:
 
 $$u_k = \begin{bmatrix}
-  1 & 1 \\
-  1 & 0 \\
+  F_{k+1} \\
+  F_k \\
 \end{bmatrix}
 $$
 1. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
