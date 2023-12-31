@@ -54,12 +54,14 @@ $$u_0 = \begin{bmatrix}
 $$
 
 then, 
- 
+
 $$u_n = A^nu_0$$ 
-1. Right now, we have to look back a little bit. We said we want to connect fibonacci number with eigenvalues. There is an essential decomposition. We want to make $A$ be decomposed to $XΛX^{-1}$. Here is the formula:
+5. Right now, we have to look back a little bit. We said we want to connect fibonacci number with eigenvalues. There is an essential decomposition. We want to make $A$ be decomposed to $XΛX^{-1}$. Here is the formula:
+
 $$
 A = XΛX^{-1}
 $$
+
 1. So, we could easily get
 $$A^nu_0 = XΛ^nX^{-1}u_0$$
 1. We could also write $u_0$ as $Xc$, which could help us cancel $X^{-1}$ out, then
