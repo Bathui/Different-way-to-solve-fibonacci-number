@@ -29,6 +29,7 @@ $$u_k = \begin{bmatrix}
   F_k \\
 \end{bmatrix}
 $$
+
 2. If we want to get a number that the term is bigger than one, we have to add up previous two terms to get the answer.
 The matrix $A$ does this job.
 
