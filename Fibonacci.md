@@ -46,10 +46,12 @@ u_{k+1} = Au_k
 $$
 
 4. So, it is easy to know that if 
+
 $u_0 = \begin{bmatrix}
   1 \\
   0 \\
 \end{bmatrix}$
+
 , 
 $$u_n = A^nu_0$$ 
 1. Right now, we have to look back a little bit. We said we want to connect fibonacci number with eigenvalues. There is an essential decomposition. We want to make $A$ be decomposed to $XΛX^{-1}$. Here is the formula:
